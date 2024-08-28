@@ -2,7 +2,6 @@ vim.opt.guicursor = ""
 vim.opt.nu = true
 vim.opt.relativenumber = true
 
-
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
@@ -20,11 +19,6 @@ vim.opt.undofile = true
 
 vim.g.mapleader = " "
 
-vim.cmd("inoremap <C-c> <Esc>")
+vim.cmd("set listchars=tab:>-,trail:~,extends:>,precedes:<,space:·")
 
--- vim.cmd("set rnu")
--- vim.cmd("set nu")
--- vim.cmd("set tabstop=4")
--- vim.cmd("set shiftwidth=4")
--- vim.cmd("set expandtab")
--- vim.cmd("set scrolloff=8")
+vim.cmd("inoremap <C-c> <Esc>")
