@@ -4,7 +4,7 @@ import = ["~/.config/alacritty/catppuccin-mocha.toml"]
 WINIT_X11_SCALE_FACTOR = "1.1"
 
 [font]
-size = 18.0
+size = 13.0
 
 [font.normal]
 family = "Inconsolata"

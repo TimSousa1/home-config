@@ -3,10 +3,13 @@ return {
     main = "ibl",
     ---@module "ibl"
     ---@type ibl.config
-    opts = {},
+    opts = {
+        scope = {enabled = false}
+    },
 
     config = function()
         local ibl = require("ibl")
         ibl.setup()
     end
+
 }

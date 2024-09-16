@@ -85,7 +85,7 @@ keys = [
     Key([mod, "shift"], "t", lazy.spawn("torbrowser-launcher"), desc="Launch Tor"),
     Key([mod, "shift"], "d", lazy.spawn("discord"), desc="Launch Discord"),
     # Key([mod], "e", lazy.spawn("dolphin --platformtheme qt5ct"), desc="Launch dolphin"),
-    Key([mod], "e", lazy.spawn("nautilus"), desc="Launch nautilus"),
+    Key([mod], "e", lazy.spawn("pcmanfm"), desc="Launch pcmanfm"),
     Key([mod], "r", lazy.spawn(f"dmenu_run -nb '{dmenu_background}' -sb '{dmenu_highlight}' -sf '#282A2E' -fn 'Inconsolata Nerd Font:pixelsize={dmenu_fontsize}'"), desc="Open dmenu"),
 
     Key([mod], "s", lazy.spawn("flameshot gui"), desc="launch snipping tool"),
