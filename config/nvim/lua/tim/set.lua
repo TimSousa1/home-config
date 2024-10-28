@@ -20,7 +20,7 @@ vim.opt.undofile = true
 vim.g.mapleader = " "
 
 -- vim.cmd("set listchars=eol:$,tab:>-,trail:~,extends:>,precedes:<,space:·")
-vim.cmd("set listchars=trail:~,space:·")
-vim.cmd("set list")
+-- vim.cmd("set listchars=trail:~,space:·")
+-- vim.cmd("set list")
 
 vim.cmd("inoremap <C-c> <Esc>")
